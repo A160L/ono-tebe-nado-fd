@@ -26,7 +26,7 @@
   list-style: circle;
 }
 
-.header__logo-image {
+.header__logo {
   width: 140px;
 }
 
@@ -43,5 +43,60 @@
 }
 
 /* main */
+
+/* cover */
+
+.cover {
+  position: relative;
+  background-image: url(../images/cover.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.overlay {
+  position: absolute;
+}
+
+.cover__title {
+  display: block;
+  font-size: 100px;
+  font-weight: bold;
+  color: white;
+}
+
+.aligned-text_center {
+  text-align: center;
+}
+
+.aligned-text_right {
+  text-align: right;
+}
+
+.cover__description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cover__description-text {
+  font-size: 22px;
+  color: white;
+  text-transform: uppercase;
+  word-spacing: 25px;
+}
+
+.bet-button {
+  text-transform: uppercase;
+  color: white;
+  background-color: transparent;
+  font-size: 22px;
+  padding: 12px 32px;
+  border: 1px solid white;
+}
+
+/* lots */
+
+/* about */
 
 /* footer */
