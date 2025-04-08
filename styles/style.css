@@ -31,10 +31,10 @@
 
 .header__address {
   justify-self: end;
-  padding-right: 35px; /* Pixel Perfect */
+  padding-right: 35px;
   font-size: 18px;
   font-style: normal;
-  line-height: 1.35; /* Pixel Perfect */
+  line-height: 1.35;
 }
 
 /* main */
@@ -70,9 +70,9 @@
   font-size: 100px;
   font-weight: bold;
   color: white;
-  padding: 160px 50px 100px; /* Pixel Perfect */
-  line-height: 1.32; /* Pixel Perfect */
-  letter-spacing: 30px; /* Pixel Perfect */
+  padding: 160px 50px 100px;
+  line-height: 1.32;
+  letter-spacing: 30px;
   text-transform: uppercase;
 }
 
@@ -98,7 +98,7 @@
   font-size: 22px;
   color: white;
   text-transform: uppercase;
-  word-spacing: 18px; /* Pixel Perfect */
+  word-spacing: 18px;
 }
 
 .bet-button {
@@ -128,7 +128,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
-  margin-bottom: 31px; /* Pixel Perfect */
+  margin-bottom: 31px;
   padding: 0 24px;
   list-style: none;
 }
@@ -240,7 +240,7 @@
 .footer__address {
   font-size: 18px;
   font-style: normal;
-  line-height: 1.3; /* Pixel Perfect */
+  line-height: 1.3;
 }
 
 .footer__menu-list-item {
